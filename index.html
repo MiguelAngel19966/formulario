@@ -3,9 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Registro</title>
 </head>
 <body>
-    
+    <header>
+        <h3>Consultas</h3>
+        <hr>
+        <h5>DATOS PERSONALES</h5>
+    </header>
+    <form>
+        <table border="0">
+            <tr>
+                <th>
+                    <input type="text" name="name" class="name" id="name" placeholder="NOMBRES">
+                    <input type="text" name="lastname" id="lastname" placeholder="APELLIDOS">
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <input type="number" class="dni" id="dni" placeholder="DNI">
+                    <input type="number" class="phone" id="phone" placeholder="TELEFONO">
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <input type="number" class="cellphone" id="cellphone" placeholder="CELULAR">
+                    <input type="text" class="email" id="email" placeholder="EMAIL">
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <input type="text" class="address" id="address" placeholder="DIRECCION">
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <select >
+                        <option value="">Departamento</option>
+                        <option value="callao">Callao</option>
+                        <option class="trujillo">Trujillo</option>
+                    </select>
+                    <select>
+                        <option>Concesionario</option>
+                    </select>
+                    <select>
+                        <option>Motivo Consulta</option>
+                    </select>
+                </th>
+            </tr>
+        </table>
+        <h6>
+            DATOS DEL VEHICULO
+        </h6>
+        <table>
+            <tr>
+                <th>
+                    <input type="text" class="placa" id="placa" placeholder="PLACA">
+                    <input type="text" 
+                    class="owner" id="owner" placeholder="PROPIETARIO"> 
+                </th>
+            </tr>
+        </table>
+    </form>
 </body>
 </html>
